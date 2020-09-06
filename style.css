@@ -1,0 +1,133 @@
+* {
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    src: url("fonts/Montserrat/Montserrat-ExtraLight.woff2") format("woff2"), url("fonts/Montserrat/Montserrat-ExtraLight.woff") format("woff"), url("fonts/Montserrat/Montserrat-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 300;
+    src: url("fonts/Montserrat/Montserrat-Light.woff2") format("woff2"), url("fonts/Montserrat/Montserrat-Light.woff") format("woff"), url("fonts/Montserrat/Montserrat-Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url("fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat/Montserrat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    src: url("fonts/Raleway/Raleway-Regular.woff2") format("woff2"), url("fonts/Raleway/Raleway-Regular.woff") format("woff"), url("fonts/Raleway/Raleway-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 500;
+    src: url("fonts/Raleway/Raleway-Medium.woff2") format("woff2"), url("/fonts/Raleway/Raleway-Regular.woff") format("woff"), url("/fonts/Raleway/Raleway-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 700;
+    src: url("fonts/Raleway/Raleway-Bold.woff2") format("woff2"), url("fonts/Raleway/Raleway-Bold.woff") format("woff"), url("fonts/Raleway/Raleway-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url("fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("fonts/Roboto/Roboto-Regular.woff") format("woff"), url("fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+
+.welcome {
+    background-image: url(img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1024px;
+}
+
+.cover {
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
+    width: 1920px;
+    height: 1024px;
+}
+
+.navbar-logo {
+    display: flex;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.navbar {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.Waxom {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+    padding-top: 15px;
+    padding-left: 2px;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    padding-top: 22px;
+    padding-right: 30px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.navbar-link:link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-link:hover {
+    text-decoration: none;
+    color: #c7b299;
+}
+
+.navbar-link:active {
+    text-decoration: none;
+    color: #c7b299;
+}
+
+.slogan {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan {}
