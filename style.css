@@ -49,15 +49,13 @@
     background-image: url(img/bg-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1920px;
-    height: 1024px;
+    width: 100%
 }
 
 .cover {
     background: rgba(0, 0, 0, 0.8);
-    opacity: 0.7;
-    width: 1920px;
-    height: 1024px;
+    opacity: 0.8;
+    width: 100%;
 }
 
 .navbar-logo {
@@ -70,8 +68,11 @@
 }
 
 .navbar {
-    display: flex;
     padding: 40px;
+}
+
+.navbar-wrapper {
+    display: flex;
     justify-content: space-around;
 }
 
@@ -123,12 +124,69 @@
     color: #c7b299;
 }
 
-.slogan {
+.cart {
+    margin-left: 63px;
+    margin-top: 15px;
+}
+
+.cart:hover {
+    filter: invert(85%) sepia(15%) saturate(430%) hue-rotate(352deg) brightness(83%) contrast(91%);
+}
+
+.search {
+    margin-top: 15px;
+    margin-left: 24px;
+}
+
+.search:hover {
+    filter: invert(85%) sepia(15%) saturate(430%) hue-rotate(352deg) brightness(83%) contrast(91%);
+}
+
+.slider {
+    margin: auto;
+}
+
+.slider-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
-.slogan-design {
-    color: white;
+.slider-design {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+
+.slider-portfolio {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+
+.slider-text {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 52px;
+}
+
+.slider-button {
+    padding: 21px 39px 21px 37px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
 }
