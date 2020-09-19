@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 200;
+  src: url("../fonts/Montserrat/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 300;
+  src: url("../fonts/Montserrat/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url("../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url("../fonts/Raleway/Raleway-Regular.woff2") format("woff2"), url("../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: url("../fonts/Raleway/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url("../fonts/Raleway/Raleway-Bold.woff2") format("woff2"), url("../fonts/Raleway/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway/Raleway-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 800;
+  src: url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2"), url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"), url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -1.36px;
+  padding-top: 15px;
+  line-height: 100%;
+}
+
+.navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-item {
+  padding-right: 30px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 22px;
+}
+
+.navbar-icons {
+  padding: 15px 0 0 63px;
+}
+
+.navbar-cart {
+  margin-right: 28px;
+  fill: #ffffff;
+}
+
+.navbar-shop {
+  fill: #ffffff;
+}
+
+.navbar-cart:hover {
+  fill: #c7b299;
+}
+
+.navbar-shop:hover {
+  fill: #c7b299;
+}
+
+.navbar-cart:active {
+  fill: #c7b299;
+}
+
+.navbar-shop:active {
+  fill: #c7b299;
+}
+
+.navbar-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-link:hover {
+  text-decoration: none;
+  color: #c7b299;
+}
+
+.navbar-link:active {
+  text-decoration: none;
+  color: #c7b299;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-logo {
+    margin-left: 15px;
+  }
+  .hamburger-menu {
+    display: revert;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .menu__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    top: 60px;
+    right: 50px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+  }
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+}
+/*# sourceMappingURL=header.css.map */

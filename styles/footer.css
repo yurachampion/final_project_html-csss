@@ -1,0 +1,315 @@
+.footer-top {
+  background-color: #191919;
+}
+
+.footer-top-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.footer-top-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 22%;
+}
+
+.footer-top-line {
+  height: 1px;
+  background-color: #252525;
+  border: none;
+}
+
+.footer-top-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+}
+
+.footer-top-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -1.36px;
+  padding-top: 15px;
+  line-height: 100%;
+}
+
+.footer-top-block-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 700;
+  padding: 107px 0 20px 0;
+}
+
+.footer-top .block-1-text {
+  color: #555555;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 45px 0 33px 0;
+}
+
+.footer-top .block-1-text:hover {
+  color: #c7b299;
+}
+
+.footer-top .block-1-link {
+  color: #d1d1d1;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer-top .block-2-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 700;
+  padding: 107px 0 20px 0;
+}
+
+.footer-top .block-2-date {
+  color: #363636;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 10px 0 10px 0;
+}
+
+.footer-top .block-2-text {
+  color: #555555;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 21px;
+}
+
+.footer-top .block-2-post:hover .footer-top .block-2-text {
+  color: #c7b299;
+}
+
+.footer-top .block-2-post:hover .footer-top .block-2-date {
+  color: #ffffff;
+}
+
+.footer-top .block-2 .block-2-post:hover .block-2-text {
+  color: #c7b299;
+}
+
+.footer-top .block-2 .block-2-post:hover .block-2-date {
+  color: #ffffff;
+}
+
+.footer-top .block-3-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 700;
+  padding: 107px 0 12px 0;
+}
+
+.footer-top .block-3-time {
+  color: #363636;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 10px 0 10px 0;
+}
+
+.footer-top .block-3-text {
+  color: #555555;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-top: 18px;
+}
+
+.footer-top .block-3-tag {
+  color: #00bff3;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.footer-top .block-3-link {
+  color: #959595;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.footer-top .block-3 .block-3-post:hover .block-3-text {
+  color: #c7b299;
+}
+
+.footer-top .block-4-title {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 700;
+  padding: 107px 0 20px 0;
+}
+
+.footer-top .block-4-dribble {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.footer-bottom {
+  background-color: #111111;
+}
+
+.footer-bottom-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 45px 0 52px 0;
+}
+
+.footer-bottom-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 45px 0 52px 0;
+}
+
+.footer-bottom-link {
+  color: #555555;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom-link::before {
+  content: "   |   ";
+  color: #c7b299;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer-bottom-link-special {
+  color: #959595;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom-link-special::before {
+  content: "  ";
+  color: #c7b299;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer-bottom-text {
+  color: #555555;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom .faq {
+  color: #c7b299;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-top-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-top-block {
+    width: 65%;
+  }
+  .footer-top-block-title {
+    padding-top: 20px;
+  }
+  .footer-bottom-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-bottom-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%;
+    padding: 45px 0 0 0;
+  }
+  .footer-bottom-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%;
+    padding: 0 0 45px 0;
+  }
+  .footer-bottom-link::before {
+    display: none;
+  }
+  .footer-bottom-link-special::before {
+    display: none;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
