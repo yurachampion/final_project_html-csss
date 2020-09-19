@@ -173,27 +173,27 @@ $space-m: 16px;
     display: revert;
   }
 
-  #menu__toggle {
+  #menu-toggle {
     opacity: 0;
   }
 
-  #menu__toggle:checked ~ .menu__btn > span {
+  #menu-toggle:checked ~ .menu-btn > span {
     transform: rotate(45deg);
   }
-  #menu__toggle:checked ~ .menu__btn > span::before {
+  #menu-toggle:checked ~ .menu-btn > span::before {
     top: 0;
     transform: rotate(0);
   }
-  #menu__toggle:checked ~ .menu__btn > span::after {
+  #menu-toggle:checked ~ .menu-btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
-  #menu__toggle:checked ~ .menu__box {
+  #menu-toggle:checked ~ .menu-box {
     visibility: visible;
     left: 0;
   }
 
-  .menu__btn {
+  .menu-btn {
     display: flex;
     align-items: center;
     position: fixed;
@@ -205,9 +205,9 @@ $space-m: 16px;
     z-index: 1;
   }
 
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -216,16 +216,16 @@ $space-m: 16px;
     transition-duration: 0.25s;
   }
 
-  .menu__btn > span::before {
+  .menu-btn > span::before {
     content: "";
     top: -8px;
   }
-  .menu__btn > span::after {
+  .menu-btn > span::after {
     content: "";
     top: 8px;
   }
 
-  .menu__box {
+  .menu-box {
     display: block;
     position: fixed;
     visibility: hidden;
@@ -241,7 +241,7 @@ $space-m: 16px;
     transition-duration: 0.25s;
   }
 
-  .menu__item {
+  .menu-item {
     display: block;
     padding: 12px 24px;
     font-family: "Montserrat";
@@ -251,7 +251,7 @@ $space-m: 16px;
     text-decoration: none;
     transition-duration: 0.25s;
   }
-  .menu__item:hover {
+  .menu-tem:hover {
     background-color: #cfd8dc;
   }
 }
