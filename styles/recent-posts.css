@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.recent-posts {
+  padding-top: 40px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.recent-posts-title {
+  color: #555555;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 83px;
+  padding-bottom: 23px;
+}
+
+.recent-posts-text {
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 40px;
+  max-width: 757px;
+  margin: 0 auto;
+}
+
+.recent-posts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recent-posts .recent-post {
+  position: relative;
+}
+
+.recent-posts .recent-post-caption {
+  border: 1px solid #f8f8f8;
+  max-width: 370px;
+}
+
+.recent-posts .recent-post-header {
+  color: #555555;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 0 20px 30px;
+}
+
+.recent-posts .recent-post-text {
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 0 0 27px 30px;
+}
+
+.recent-posts .recent-post-buttons {
+  display: block;
+  text-align: center;
+}
+
+.recent-posts .recent-post-button {
+  display: inline-block;
+  margin: 40px auto;
+  border: transparent;
+  background-color: transparent;
+  fill: #d1d1d1;
+}
+
+.recent-posts .recent-post-button:hover {
+  display: inline-block;
+  margin: 40px auto;
+  border: transparent;
+  background-color: transparent;
+  fill: #c7b299;
+}
+
+.recent-posts .recent-post-button:active {
+  display: inline-block;
+  margin: 40px auto;
+  border: transparent;
+  background-color: transparent;
+  fill: #c7b299;
+}
+
+.recent-posts .read-more {
+  color: #c7b299;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 0 0 33px 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.recent-posts .read-more::after {
+  content: "   ";
+  position: absolute;
+  margin-left: 9px;
+  width: 5px;
+  height: 8px;
+  border-width: 4px 0 4px 5px;
+  border-color: transparent transparent transparent #c7b299;
+}
+
+.recent-posts .calendar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.recent-posts .calendar-day {
+  background-color: #363636;
+  border-radius: 3px 3px 0 0;
+  width: 50px;
+  height: 35px;
+}
+
+.recent-posts .calendar-month {
+  background-color: #252525;
+  border-radius: 0 0 3px 3px;
+  width: 50px;
+  height: 25px;
+}
+
+.recent-posts .day {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.recent-posts .month {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 7px 13px 7px 13px;
+}
+
+.recent-posts .read {
+  margin-bottom: 33px;
+}
+
+.recent-posts .recent-post img {
+  margin-bottom: -5px;
+}
+
+.recent-posts .recent-post-caption {
+  max-width: 371px;
+  height: 195px;
+}
+
+.recent-posts .recent-post:hover .calendar-day {
+  background-color: #c7b299;
+}
+
+.recent-posts .recent-post:hover .calendar-month {
+  background-color: #a48d72;
+}
+
+.recent-posts .recent-post:hover .recent-post-caption {
+  background-color: #362f2d;
+}
+
+.recent-posts .recent-post:hover .recent-post-header {
+  color: #c7b299;
+}
+
+.recent-posts .recent-post:hover .recent-post-text {
+  color: #ffffff;
+}
+
+.recent-posts .recent-post:hover img {
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+@media screen and (max-width: 500px) {
+  .recent-posts {
+    padding: 0;
+  }
+  .recent-posts-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .recent-posts-text {
+    font-size: 14px;
+    max-width: 450px;
+  }
+  .recent-posts-title {
+    padding-top: 40px;
+  }
+  .recent-posts .recent-post {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=recent-posts.css.map */

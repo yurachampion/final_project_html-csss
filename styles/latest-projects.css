@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.latest-projects-title {
+  color: #555555;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 83px;
+  padding-bottom: 23px;
+}
+
+.latest-projects-text {
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 40px;
+  max-width: 757px;
+  margin: 0 auto;
+}
+
+.latest-projects-categories {
+  display: block;
+  text-align: center;
+}
+
+.latest-projects-button {
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  margin-right: 10px;
+}
+
+.latest-projects-button:active {
+  border-radius: 3px;
+  background-color: #998675;
+  border-color: none;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.latest-projects-button:hover {
+  border-radius: 3px;
+  background-color: #998675;
+  border-color: none;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.latest-projects-projects {
+  padding-top: 40px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.latest-projects-projects-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding-bottom: 40px;
+}
+
+.latest-projects-load-more {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  /* Style for "button" */
+  padding: 20px 45px 20px 45px;
+  -webkit-box-shadow: inset 0 -3px 0 #736357;
+          box-shadow: inset 0 -3px 0 #736357;
+  border-radius: 3px;
+  background-color: #998675;
+}
+
+.latest-projects-load-more:active {
+  background-color: #c7b299;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  outline: none;
+}
+
+.latest-projects-load-more:hover {
+  background-color: #c7b299;
+}
+
+.latest-projects .project-img {
+  margin-bottom: -4px;
+}
+
+.project {
+  position: relative;
+}
+
+.project-img {
+  max-width: 370px;
+  max-height: 237px;
+}
+
+.project-caption {
+  background-color: #fbfaf8;
+  margin: 0;
+  max-width: 370px;
+}
+
+.project-header {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 29px;
+  color: #c7b299;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.project-text {
+  padding: 14px 0 27px 0;
+  color: #d1d1d1;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 29px;
+}
+
+.project:hover .project-caption {
+  background-color: #362f2d;
+}
+
+.project:hover .project-header {
+  color: #ffffff;
+}
+
+.project:hover .project-text {
+  color: #c7b299;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.7);
+  top: -100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 370px;
+  height: 237px;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.project:hover .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 78px;
+  opacity: 1;
+}
+
+.overlay-icon {
+  margin-right: 28px;
+  fill: #ffffff;
+}
+
+.overlay-icon:hover {
+  fill: #c7b299;
+}
+
+@media screen and (max-width: 500px) {
+  .latest-projects-projects-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding-bottom: 40px;
+    justify-items: center;
+  }
+  .latest-projects .overlay {
+    display: none;
+  }
+  .latest-projects .latest-projects-text {
+    max-width: 450px;
+  }
+  .latest-projects .latest-projects-title {
+    max-width: 450px;
+  }
+  .latest-projects .latest-projects-categories {
+    max-width: 450px;
+  }
+  .latest-projects .latest-projects-button {
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=latest-projects.css.map */

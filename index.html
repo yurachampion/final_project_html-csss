@@ -1,76 +1,1006 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waxcom-Solodukhin</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="container">
-
-        <div class="welcome">
-
-            <div class="cover">
-                <div class="header">
-                    <div class="sticky">
-                        <div class="navbar">
-                            <div class="navbar-logo">
-                                <a href="#home"> <object type="image/svg+xml" class="logo" data="img/logo.svg"
-                                        width="64" height="56">
-                                        <img src="img/logo.png" width="200" height="200" alt="image format png" />
-                                    </object></a>
-
-                                <span class="Waxom">Waxom</span>
-                            </div>
-                            <div class="navbar-links">
-                                <ul class="navbar-list">
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Home</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">About us</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Portfolio</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Features</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Blog</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Pricing</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Shortcodes</li>
-                                    </a>
-                                    <a href="#" class="navbar-link">
-                                        <li class="navbar-item">Contact</li>
-                                    </a>
-                            </div>
-                            </ul>
-                        </div>
-                    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waxom</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/slider.css" />
+    <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/waxom-is.css" />
+    <link rel="stylesheet" href="styles/boxes.css" />
+    <link rel="stylesheet" href="styles/latest-projects.css" />
+    <link rel="stylesheet" href="styles/play-video.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/boxes.css" />
+    <link rel="stylesheet" href="styles/counters.css" />
+    <link rel="stylesheet" href="styles/recent-posts.css" />
+    <link rel="stylesheet" href="styles/partners.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="background-wrapper">
+        <header>
+          <section class="header">
+            <nav>
+              <div class="navbar">
+                <div class="navbar-logo">
+                  <a href="index.html">
+                    <object
+                      type="image/svg+xml"
+                      class="logo"
+                      data="img/logo.svg"
+                      width="64"
+                      height="56"
+                    >
+                      <img
+                        src="img/logo.png"
+                        width="64"
+                        height="56"
+                        alt="image format png"
+                      /></object
+                  ></a>
+                  <span class="navbar-title">Waxom</span>
                 </div>
-                <div class="slider">
-                    <div class="slogan">
-                        <h1 class="slogan-design">Unique and Modern Design</h1>
-                        <h2 class="slogan-porfolio">Portfolio PSD Template</h2>
-                        <p class="slogan-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-                            doming
-                            id quod mazim placerat facer possim assum.</p>
-                        <button>Get Started</button>
+                <div class="navbar-links">
+                  <ul class="navbar-list">
+                    <li class="navbar-item">
+                      <a href="index.html" class="navbar-link"> Home</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link"> About us</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link"> Portfolio</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link">Features</a>
+                    </li>
 
-                    </div>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link"> Blog</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link"> Pricing</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link"> Shortcodes</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-link"> Contact</a>
+                    </li>
+                  </ul>
+
+                  <div class="navbar-icons">
+                    <svg
+                      class="navbar-cart"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="24"
+                      viewBox="0 0 18 24"
+                    >
+                      <g>
+                        <g>
+                          <path
+                            d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z"
+                          />
+                          <path
+                            d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <svg
+                      class="navbar-shop"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g>
+                        <g>
+                          <path
+                            d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52 19.862.001 15.415.001 9.928 0 4.443 4.519-.002 10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0 2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758 0 0 1 0 1.082zM18.633 9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643 3.824 8.405 8.54 8.405 4.717 0 8.54-3.762 8.54-8.405z"
+                          />
+                          <path
+                            d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52 19.862.001 15.415.001 9.928 0 4.443 4.519-.002 10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0 2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758 0 0 1 0 1.082zM18.633 9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643 3.824 8.405 8.54 8.405 4.717 0 8.54-3.762 8.54-8.405z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
                 </div>
+              </div>
+            </nav>
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+
+              <ul class="menu__box">
+                <li><a class="menu__item navbar-item" href="#">Home</a></li>
+                <li><a class="menu__item navbar-item" href="#">About Us</a></li>
+                <li>
+                  <a class="menu__item navbar-item" href="#">Portfolio</a>
+                </li>
+                <li><a class="menu__item navbar-item" href="#">Features</a></li>
+                <li><a class="menu__item navbar-item" href="#">Blog</a></li>
+                <li><a class="menu__item navbar-item" href="#">Pricing</a></li>
+                <li>
+                  <a class="menu__item navbar-item" href="#">Shortcodes</a>
+                </li>
+                <li><a class="menu__item navbar-item" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+        </header>
+
+        <section class="slider">
+          <div class="slider-wrapper">
+            <button class="left-arrow"></button>
+            <div class="slider-text">
+              <div class="text-wrapper">
+                <h1 class="text-design">Unique and Modern Design</h1>
+                <h2 class="text-portfolio">Portfolio PSD Template</h2>
+                <p class="text-text">
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id quod mazim placerat facer possim assum.
+                </p>
+                <button class="text-button">Get Started</button>
+              </div>
+            </div>
+            <button class="right-arrow"></button>
+          </div>
+          <div class="slider-buttons">
+            <button class="slider-button"></button>
+            <button class="slider-button"></button>
+            <button class="slider-button"></button>
+            <button class="slider-button"></button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <section class="services">
+      <div class="services-wrapper">
+        <div class="services-segment">
+          <object
+            type="image/svg+xml"
+            class="services-img"
+            data="img/content-icon-1.svg"
+            width="49"
+            height="49"
+          >
+            <img
+              src="img/content-icon-1.png"
+              width="49"
+              height="49"
+              alt="image format png"
+            />
+          </object>
+          <h3 class="services-title">Web & App Design</h3>
+          <p class="services-text">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil
+            imperdiet doming id quod mazim.
+          </p>
+          <div class="services-line"></div>
+        </div>
+        <div class="services-segment">
+          <object
+            type="image/svg+xml"
+            class="services-img"
+            data="img/content-icon-2.svg"
+            width="44"
+            height="40"
+          >
+            <img
+              src="img/content-icon-2.png"
+              width="24"
+              height="24"
+              alt="image format png"
+            />
+          </object>
+          <h3 class="services-title">Development</h3>
+          <p class="services-text">
+            Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet.
+          </p>
+          <div class="services-line"></div>
+        </div>
+        <div class="services-segment">
+          <object
+            type="image/svg+xml"
+            class="services-img"
+            data="img/content-icon-3.svg"
+            width="44"
+            height="40"
+          >
+            <img
+              src="img/content-icon-3.png"
+              width="44"
+              height="40"
+              alt="image format png"
+            />
+          </object>
+          <h3 class="services-title">Customization</h3>
+          <p class="services-text">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil
+            imperdiet doming id quod mazim.
+          </p>
+          <div class="services-line"></div>
+        </div>
+        <div class="services-segment">
+          <object
+            type="image/svg+xml"
+            class="services-img"
+            data="img/content-icon-4.svg"
+            width="52"
+            height="36"
+          >
+            <img
+              src="img/content-icon-4.png"
+              width="52"
+              height="36"
+              alt="image format png"
+            />
+          </object>
+          <h3 class="services-title">Marketing</h3>
+          <p class="services-text">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil
+            imperdiet doming id quod mazim.
+          </p>
+          <div class="services-line"></div>
+        </div>
+      </div>
+    </section>
+    <section class="waxom-is">
+      <div class="waxom-is-background">
+        <div class="waxom-is-wrapper">
+          <h2 class="waxom-is-title">Waxom is Realization of your Ideas.</h2>
+          <p class="waxom-is-text">
+            Investigationes demonstraverunt lectores legere me lius quod ii
+            legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
+            mutationem consuetudium.
+          </p>
+        </div>
+        <div class="waxom-is-images">
+          <img
+            class="waxom-is-img item-img-2"
+            src="img/browser-center.jpg"
+            alt=""
+          />
+          <img
+            class="waxom-is-img item-img-3"
+            src="img/browser-left.jpg"
+            alt=""
+          />
+          <img
+            class="waxom-is-img item-img-1"
+            src="img/browser-right.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="boxes">
+      <div class="boxes-wrapper">
+        <h1 class="boxes-big">
+          <span class="boxes-title">Waxom</span> Multipurpose WordPress Theme
+        </h1>
+        <h2 class="boxes-small">
+          Don't Forget to Rate the Template. Thanks so much!
+        </h2>
+      </div>
+      <button class="boxes-button">Purchase Now</button>
+    </section>
+    <article class="latest-projects">
+      <h1 class="latest-projects-title">Our Latest Projects</h1>
+      <p class="latest-projects-text">
+        Investigationes demonstraverunt lectores legere me lius quod ii legunt
+        saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem
+        consuetudium.
+      </p>
+
+      <div class="latest-projects-categories">
+        <button class="latest-projects-button">All</button>
+        <button class="latest-projects-button">Web Design</button>
+        <button class="latest-projects-button">Mobile App</button>
+        <button class="latest-projects-button">Illustration</button>
+        <button class="latest-projects-button">Photography</button>
+      </div>
+      <div class="latest-projects-projects">
+        <div class="latest-projects-projects-wrapper">
+          <figure class="project">
+            <img
+              class="project-img"
+              src="img/latest-projects/lp-1.jpg"
+              alt="Project Image"
+            />
+            <div class="overlay">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                  </g>
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="25"
+                viewBox="0 0 26 25"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <figcaption class="project-caption">
+              <h2 class="project-header">Claritas Etiam Processus</h2>
+              <p class="project-text">Photography, Nature</p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              class="project-img"
+              src="img/latest-projects/lp-2.jpg"
+              alt="Project Image"
+            />
+            <div class="overlay">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                  </g>
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="25"
+                viewBox="0 0 26 25"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <figcaption class="project-caption">
+              <h2 class="project-header">Quam Nutamus Farum</h2>
+              <p class="project-text">Graphic Design, Mock-Up</p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              class="project-img"
+              src="img/latest-projects/lp-3.jpg"
+              alt="Project Image"
+            />
+            <div class="overlay">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                  </g>
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="25"
+                viewBox="0 0 26 25"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <figcaption class="project-caption">
+              <h2 class="project-header">Usus Legentis Videntur</h2>
+              <p class="project-text">Photography, Holiday</p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              class="project-img"
+              src="img/latest-projects/lp-4.jpg"
+              alt="Project Image"
+            />
+            <div class="overlay">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                  </g>
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="25"
+                viewBox="0 0 26 25"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <figcaption class="project-caption">
+              <h2 class="project-header">Claritas Etiam Processus</h2>
+              <p class="project-text">Photography, Nature</p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              class="project-img"
+              src="img/latest-projects/lp-5.jpg"
+              alt="Project Image"
+            />
+            <div class="overlay">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                  </g>
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="25"
+                viewBox="0 0 26 25"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <figcaption class="project-caption">
+              <h2 class="project-header">Quam Nutamus Farum</h2>
+              <p class="project-text">Graphic Design, Mock-Up</p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              class="project-img"
+              src="img/latest-projects/lp-6.jpg"
+              alt="Project Image"
+            />
+            <div class="overlay">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                    <path
+                      d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"
+                    />
+                  </g>
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="25"
+                viewBox="0 0 26 25"
+                class="overlay-icon"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                    <path
+                      d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <figcaption class="project-caption">
+              <h2 class="project-header">Usus Legentis Videntur</h2>
+              <p class="project-text">Photography, Holiday</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <button class="latest-projects-load-more">Load More</button>
+      </div>
+    </article>
+    <section class="play-video">
+      <div class="play-video-overlay">
+        <div class="play-video-image">
+          <img src="img/icon-play.png" class="play-icon" alt="" />
+        </div>
+        <div class="play-video-text-block">
+          <h1 class="play-video-header">Waxom Video Presentation</h1>
+          <p class="play-video-text">
+            Investigationes demonstraverunt lectores legere me lius quod ii
+            legunt saepius, qui sequitur mutationem consuetudium.
+          </p>
+          <p class="play-video-time">03:26</p>
+        </div>
+
+        <video class="video" poster="/img/video-bg.jpg" muted="">
+          <source src="/video/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+    <section class="mobile">
+      <div class="mobile-wrapper">
+        <img class="iphone" src="img/iPhone_in_hand.jpg" alt="" />
+        <div class="mobile-text-block">
+          <h1 class="mobile-title">Excellent for Mobile Devices.</h1>
+          <p class="mobile-text">
+            Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Investigationes demonstraverunt lectores legere me lius quod ii
+            legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur
+            parum clari, fiant sollemnes in futurum.
+          </p>
+          <ul class="mobile-list">
+            <li class="mobile-list-item">
+              Nam liber tempor cum soluta nobis eleifend option;
+            </li>
+            <li class="mobile-list-item">
+              Option congue nihil imperdiet doming id quod mazim placerat facer;
+            </li>
+            <li class="mobile-list-item">
+              Eodem modo typi, qui nunc nobis videntur parum futurum;
+            </li>
+            <li class="mobile-list-item">
+              Investigationes demonstraverunt lectores
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="counters">
+      <div class="counters-wrapper">
+        <div class="counters-segment">
+          <object
+            type="image/svg+xml"
+            class="counters-image"
+            data="img/counters/icon-1.svg"
+            width="44"
+            height="44"
+          >
+            <img
+              src="img/counters/icon-1.png"
+              width="44"
+              height="44"
+              alt="image format png"
+            />
+          </object>
+          <h1 class="counters-number">3587</h1>
+          <p class="counters-text">Satisfied Clients</p>
+          <div class="services-line"></div>
+        </div>
+        <div class="counters-segment">
+          <object
+            type="image/svg+xml"
+            class="counters-image"
+            data="img/counters/icon-2.svg"
+            width="44"
+            height="44"
+          >
+            <img
+              src="img/counters/icon-2.png"
+              width="44"
+              height="44"
+              alt="image format png"
+            />
+          </object>
+          <h1 class="counters-number">207</h1>
+          <p class="counters-text">Cups of coffee</p>
+          <div class="services-line"></div>
+        </div>
+        <div class="counters-segment">
+          <object
+            type="image/svg+xml"
+            class="counters-image"
+            data="img/counters/icon-3.svg"
+            width="44"
+            height="44"
+          >
+            <img
+              src="img/counters/icon-3.png"
+              width="44"
+              height="44"
+              alt="image format png"
+            />
+          </object>
+          <h1 class="counters-number">2500</h1>
+          <p class="counters-text">Blog posts</p>
+          <div class="services-line"></div>
+        </div>
+        <div class="counters-segment">
+          <object
+            type="image/svg+xml"
+            class="counters-image"
+            data="img/counters/icon-4.svg"
+            width="44"
+            height="44"
+          >
+            <img
+              src="img/counters/icon-4.png"
+              width="44"
+              height="44"
+              alt="image format png"
+            />
+          </object>
+          <h1 class="counters-number">873</h1>
+          <p class="counters-text">Likes</p>
+          <div class="services-line"></div>
+        </div>
+        <div class="counters-segment">
+          <object
+            type="image/svg+xml"
+            class="counters-image"
+            data="img/counters/icon-5.svg"
+            width="44"
+            height="44"
+          >
+            <img
+              src="img/counters/icon-5.png"
+              width="44"
+              height="44"
+              alt="image format png"
+            />
+          </object>
+          <h1 class="counters-number">900</h1>
+          <p class="counters-text">We launched</p>
+          <div class="services-line"></div>
+        </div>
+      </div>
+    </section>
+    <article class="recent-posts">
+      <h1 class="recent-posts-title">Recent Posts.</h1>
+      <p class="recent-posts-text">
+        Investigationes demonstraverunt lectores legere me lius quod ii legunt
+        saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem
+        consuetudium.
+      </p>
+      <div class="recent-posts-wrapper">
+        <figure class="recent-post">
+          <img src="img/recent-post-3.jpg" alt="Recent Post Image" />
+          <div class="calendar">
+            <div class="calendar-day"><span class="day">30</span></div>
+            <div class="calendar-month"><span class="month">Sep.</span></div>
+          </div>
+          <figcaption class="recent-post-caption">
+            <h1 class="recent-post-header">Claritas Etiam Processus</h1>
+            <p class="recent-post-text">
+              Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium.
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </figcaption>
+        </figure>
+
+        <figure class="recent-post">
+          <img src="img/recent-post-2.png" alt="Recent Post Image" />
+          <div class="calendar">
+            <div class="calendar-day"><span class="day">30</span></div>
+            <div class="calendar-month"><span class="month">Sep.</span></div>
+          </div>
+          <figcaption class="recent-post-caption">
+            <h1 class="recent-post-header">Claritas Etiam Processus</h1>
+            <p class="recent-post-text">
+              Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium.
+            </p>
+            <span class="read"><a class="read-more" href="">Read more</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="recent-post">
+          <img src="img/recent-post-1.png" alt="Recent Post Image" />
+          <div class="calendar">
+            <div class="calendar-day"><span class="day">30</span></div>
+            <div class="calendar-month"><span class="month">Sep.</span></div>
+          </div>
+          <figcaption class="recent-post-caption">
+            <h1 class="recent-post-header">Claritas Etiam Processus</h1>
+            <p class="recent-post-text">
+              Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium.
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="recent-post-buttons">
+        <button class="recent-post-button">
+          <svg
+            class="recent-post-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+          >
+            <g>
+              <g>
+                <path
+                  d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z"
+                />
+                <path
+                  d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z"
+                />
+              </g>
+            </g>
+          </svg>
+        </button>
+        <button class="recent-post-button">
+          <svg
+            class="recent-post-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+          >
+            <g>
+              <g>
+                <path
+                  d="M14.633 10.957a.73.73 0 0 1-.216.523L9.645 16.25a.736.736 0 0 1-1.04-1.04l4.254-4.254-4.255-4.255a.737.737 0 0 1 1.04-1.041l4.773 4.773a.732.732 0 0 1 .216.523zm7.364.053c0 6.066-4.918 10.985-10.985 10.985C4.946 21.995.028 17.076.028 11.01.028 4.944 4.946.027 11.012.027c6.067 0 10.985 4.917 10.985 10.985zm-1.472 0c0-5.245-4.268-9.513-9.513-9.513-5.244 0-9.513 4.268-9.513 9.514 0 5.242 4.269 9.512 9.513 9.512 5.245 0 9.513-4.27 9.513-9.512z"
+                />
+                <path
+                  d="M14.633 10.957a.73.73 0 0 1-.216.523L9.645 16.25a.736.736 0 0 1-1.04-1.04l4.254-4.254-4.255-4.255a.737.737 0 0 1 1.04-1.041l4.773 4.773a.732.732 0 0 1 .216.523zm7.364.053c0 6.066-4.918 10.985-10.985 10.985C4.946 21.995.028 17.076.028 11.01.028 4.944 4.946.027 11.012.027c6.067 0 10.985 4.917 10.985 10.985zm-1.472 0c0-5.245-4.268-9.513-9.513-9.513-5.244 0-9.513 4.268-9.513 9.514 0 5.242 4.269 9.512 9.513 9.512 5.245 0 9.513-4.27 9.513-9.512z"
+                />
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </article>
+    <section class="partners">
+      <div class="partners-wrapper">
+        <img
+          src="img/partners/logo-01.png"
+          class="partners-image p-i-1"
+          alt="Partners logo"
+        />
+        <img
+          src="img/partners/logo-02.png"
+          class="partners-image"
+          alt="Partners logo"
+        />
+        <img
+          src="img/partners/logo-03.png"
+          class="partners-image"
+          alt="Partners logo"
+        />
+        <img
+          src="img/partners/logo-04.png"
+          class="partners-image p-i-4"
+          alt="Partners logo"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div class="footer-top-wrapper">
+          <div class="footer-top-block block-1">
+            <div class="footer-top-logo">
+              <a href="index.html">
+                <object
+                  type="image/svg+xml"
+                  class="logo"
+                  data="img/logo.svg"
+                  width="64"
+                  height="56"
+                >
+                  <img
+                    src="img/logo.png"
+                    width="64"
+                    height="56"
+                    alt="image format png"
+                  /></object
+              ></a>
+              <span class="footer-top-title">Waxom</span>
             </div>
 
-
-</body>
-
+            <p class="block-1-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              suscipit lobortis claritatem.
+            </p>
+            <a class="block-1-link" href="">Read more</a>
+          </div>
+          <div class="footer-top-block block-2">
+            <h1 class="footer-top-block-title">Recent Posts</h1>
+            <div class="block-2-post">
+              <p class="block-2-date">September 08, 2015</p>
+              <p class="block-2-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+              </p>
+              <hr class="footer-top-line" />
+            </div>
+            <div class="block-2-post">
+              <p class="block-2-date">September 08, 2015</p>
+              <p class="block-2-text">
+                Diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+              </p>
+              <hr class="footer-top-line" />
+            </div>
+            <div class="block-2-post">
+              <p class="block-2-date">September 08, 2015</p>
+              <p class="block-2-text">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                per seacula quarta decima
+              </p>
+            </div>
+          </div>
+          <div class="footer-top-block block-3">
+            <div class="block-3-post">
+              <h1 class="footer-top-block-title">Our Twitter</h1>
+              <p class="block-3-text">
+                <span class="block-3-tag">@waxom </span>Cum soluta nobis
+                eleifend option congue nihil imperdiet doming
+              </p>
+              <p class="block-3-time">3 mins ago</p>
+              <hr class="footer-top-line" />
+            </div>
+            <div class="block-3-post">
+              <p class="block-3-text">
+                Mirum est <span class="block-3-tag">#envato </span> notare quam
+                littera gothica, quam nunc putamus parum anteposuerit litterarum
+              </p>
+              <p class="block-3-time">5 hours ago</p>
+              <hr class="footer-top-line" />
+            </div>
+            <div class="block-3-post">
+              <p class="block-3-text">
+                Soluta nobis option
+                <a class="block-3-link" href="">bit.ly/1Hniso7</a>
+              </p>
+              <p class="block-3-time">20 days ago</p>
+            </div>
+          </div>
+          <div class="footer-top-block block-4">
+            <h1 class="footer-top-block-title">Dribbble Widget</h1>
+            <div class="block-4-dribble">
+              <img class="block-4-img" src="img/dribble/photo-1.jpg" alt="" />
+              <img class="block-4-img" src="img/dribble/photo-2.jpg" alt="" />
+              <img class="block-4-img" src="img/dribble/photo-3.jpg" alt="" />
+              <img class="block-4-img" src="img/dribble/photo-4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-wrapper">
+          <div class="footer-bottom-left">
+            <span class="footer-bottom-text">Copyright © 2015 </span
+            ><a class="footer-bottom-link-special" href="">Waxom</a>
+            <a class="footer-bottom-link" href="">Privacy Policy</a>
+            <a class="footer-bottom-link faq" href="">FAQ</a>
+            <a class="footer-bottom-link" href="">Support</a>
+          </div>
+          <div class="footer-bottom-right">
+            <p>
+              <span class="footer-bottom-text">Designed by </span
+              ><a class="footer-bottom-link-special" href="">ThemeFire</a>
+            </p>
+            <p>
+              <span class="footer-bottom-link">Only on </span
+              ><a class="footer-bottom-link-special" href="">Envato Market</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

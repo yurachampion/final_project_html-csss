@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.services {
+  padding-top: 90px;
+  background-color: white;
+}
+
+.services-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.services-segment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services-segment:hover .services-title {
+  color: #c7b299;
+}
+
+.services-segment:hover .services-text {
+  color: #c7b299;
+}
+
+.services-segment:hover .services-line {
+  border-color: #c7b299;
+}
+
+.services-segment:hover .services-img {
+  -webkit-filter: invert(76%) sepia(31%) saturate(220%) hue-rotate(352deg) brightness(90%) contrast(89%);
+          filter: invert(76%) sepia(31%) saturate(220%) hue-rotate(352deg) brightness(90%) contrast(89%);
+}
+
+.services-title {
+  color: #555555;
+  font-family: "Raleway";
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 19px;
+  margin-top: 24px;
+}
+
+.services-text {
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+.services-line {
+  border-bottom: 3px solid #f1eee9;
+  width: 70px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 500px) {
+  .services-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services-text {
+    max-width: 300px;
+  }
+  .services-segment {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=services.css.map */

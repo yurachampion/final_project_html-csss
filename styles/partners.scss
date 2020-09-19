@@ -1,0 +1,43 @@
+.partners {
+  background-image: url("../img/partners-bg.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+
+  &-wrapper {
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  &-image {
+    padding: 80px 90px 180px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .partners {
+    margin: 0;
+    &-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-image {
+      width: 55%;
+      padding: 40px 0 0 0;
+    }
+  }
+
+  .p-i-1 {
+    padding-top: 80px;
+  }
+
+  .p-i-4 {
+    padding-bottom: 80px;
+  }
+}
